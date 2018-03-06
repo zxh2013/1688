@@ -81,7 +81,7 @@ url = 'https://s.1688.com/company/company_search.htm?&keywords=' + urllib.quote(
 driver.get(url)
 
 # 新建一个data.csv文件，并且将数据保存到csv中
-csvfile = file('data1.csv', 'wb')
+csvfile = file('data.csv', 'wb')
 csvfile.write(codecs.BOM_UTF8)
 writer = csv.writer(csvfile)
 # 写入标题，
